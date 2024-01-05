@@ -1,0 +1,13 @@
+div.loading {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background: rgb(241, 242, 243);
+}
+
+svg {
+  margin: auto;
+  display: block;
+  shape-rendering: auto;
+}

@@ -1,0 +1,35 @@
+.footerParentDiv {
+  width: 100%;
+  background: #ebeeef;
+}
+.footerParentDiv .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  width: 75%;
+  margin: 0 auto;
+}
+.footerParentDiv .content .heading {
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.footerParentDiv .footer {
+  width: 100%;
+  background: #002f34;
+}
+
+.footerParentDiv .footer div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  color: whitesmoke;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.footerParentDiv .footer p {
+  margin: 0;
+}
