@@ -43,6 +43,7 @@ const Posts = () => {
                 className="card"
                 onClick={() => {
                   setPostDetails(product);
+                  localStorage.setItem("postDetails", JSON.stringify(product));
                   navigate("/view");
                 }}
               >
